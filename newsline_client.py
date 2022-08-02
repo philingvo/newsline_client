@@ -23,7 +23,7 @@ class Newsline_Client:
 								# 				iteration_time=10),
 								# Date_Time_Piece(self, name='date_time', volume="newsline")
 								YT_Videos_Queue(self).queue,
-								# YT_Channels_Queue(self).queue,
+								YT_Channels_Queue(self).queue,
 								]
 
 		for message_to_include in messages_to_include:
